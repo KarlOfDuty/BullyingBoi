@@ -1,0 +1,15 @@
+﻿bot:
+    # Bot token.
+    token: "<add-token-here>"
+    # Decides what messages are shown in console
+    # Possible values are: Critical, Error, Warning, Information, Debug.
+    console-log-level: "Information"
+    # Sets the type of activity for the bot to display in its presence status
+    # Possible values are: Playing, Streaming, ListeningTo, Watching, Competing
+    presence-type: "Watching"
+    # Sets the activity text shown in the bot's status
+    presence-text: "a nerd"
+    # User Id of person to bully
+    bullying-target: 521356747064213504
+    # Name of emote to use
+    emote-name: ":nerd:"
