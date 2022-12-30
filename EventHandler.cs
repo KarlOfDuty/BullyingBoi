@@ -42,10 +42,8 @@ internal static class EventHandler
 
 	internal static async Task OnMessageCreated(DiscordClient client, MessageCreateEventArgs e)
 	{
-		Logger.Log("TEST" + Config.bullyingID + " " + e.Message.Author.Id);
 		if (e.Message.Author.Id == Config.bullyingID)
 		{
-			Logger.Log("TEST2");
 			await e.Message.CreateReactionAsync(DiscordEmoji.FromName(client, Config.emoteName));
 		}
 	}
